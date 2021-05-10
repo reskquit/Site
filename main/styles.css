@@ -10,15 +10,19 @@
     box-sizing: border-box;
     margin: auto;
     padding: 0;
-    width: 50%;
+    width: 100%;
     border-collapse: collapse;
     border: 1px solid #e6e6e6;
     margin-bottom: 30px;
 }
-th, tr, td{
-    border: 2px solid black;
-    font-family: "Trebuchet MS", sans-serif;
-    font-size: 20px;
+.footer{
+    background-color:#20B2AA ;
+    margin: 0px;
+    height: 200px;
+}
+.footer_img{
+    margin-top: 20px;
+    height: 100px;
 }
 .title{
     height: 75px;
@@ -28,6 +32,7 @@ th, tr, td{
     border: 0;
     outline: 0;
     font-size: 25px;
+    font-style:italic;
     vertical-align: baseline;
     position: relative;
     background: #20B2AA;
@@ -39,6 +44,17 @@ th, tr, td{
     margin-bottom: 50px;
     margin-top: -40px;
     
+}
+.back_buton{
+    margin-top: -90px;
+    position: absolute;
+    margin-left: 12%;
+}
+
+th, tr, td{
+    border: 2px solid black;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 20px;
 }
 p{
     font-family: "Trebuchet MS", sans-serif;
@@ -52,4 +68,19 @@ li, ol{
 h1{
     font-size: 50px;
     padding-top: 9px;
+}
+h2, h3{
+    font-family:"Trebuchet MS", sans-serif;
+}
+code, kbd{
+    background-color: #e3e3e3;
+    border-radius: 5px;
+}
+
+body{
+    margin: 0px;
+}
+
+caption, figcaption{
+    text-align: left;
 }

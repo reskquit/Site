@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="utf-8">
+        <title>Структура Html документа</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        
+        <div class="title" title="Вернуться назад">
+            <h1 align ="center" > Структура Html документа </h1>
+            <a href="index.html"><img class="back_buton" height="60px" src="Source/back_button.png"> </a>
+        </div>
+            
+        
+
+        <div style="margin-left: 25%; margin-right: 25%;">
+            <div>
+                <p>Структура HTML документа - скелет, на основе которого строится вся страница:</p>
+                <div class="code">
+                    <figure>
+                        <img src="Source/2021-05-07_18-41-09.png">
+                        <figcaption>
+                            Структура докумекнта выглядит так
+                        </figcaption> 
+                    </figure>
+                </div>
+            </div>
+    
+            <div>
+                <h2> &lt;!DOCTYPE&gt; </h2>
+                <p>
+                    Первым тегом в любом HTML документе должен идти тег <!DOCTYPE>. Он говорит браузеру, по какому стандарту написана страница. На рассвете веба HTML существовал в разных несовместимых версиях, поэтому для их одновременной поддержки нужно было указывать версию явно. Сейчас все пришли к одному стандарту - HTML5. Поэтому для всех сайтов, которые создаются сегодня, нужно указывать <!DOCTYPE html> - так обозначается HTML5.
+                </p>
+            </div>
+    
+            <div>
+                <h2> &lt;html&gt; </h2>
+                <p>
+                    Вторым тегом идет <code>&lt;Html&gt; </code> - контейнер, который содержит два тега - <code>&lt;Head&gt; </code>  и <code>&lt;Body&gt; </code>HTML-страница должна заканчиваться закрытым тегом </html>.
+                </p>
+            </div>
+    
+            <div>
+                <h2> &lt;head&gt; </h2>
+                
+                <p>
+                    В теге <code>&lt;head&gt;</code> хранится информация о странице. Здесь указывают кодировку <code>&lt;meta charset="..."&gt;</code>, имя страницы <code>&lt;title&gt;...&lt;/title&gt;</code>, специальную информацию для поисковиков, а ещё тут подключаются стилевые файлы и скрипты.
+                </p>
+            </div>
+            <div>
+                <h2>&lt;Body&gt; </h2>
+                <p>
+                    В теге <code>&lt;Body&gt;</code> размещается весь контент страницы, который пользователь увидит в браузере.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div>
+                <figure style="margin-bottom: 0px;">
+                    <img class="footer_img"   src="Source/re.png">
+                    <figcaption>
+                    
+                    </figcaption> 
+                </figure>
+            </div>
+        </div>
+        
+    </body>
+</html>
