@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Якоря</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class="title" title="Вернуться назад">
+            <h1  align = "center">Якоря</h1>
+            <a href="index.html"><img class="back_buton" height="60px" src="Source/back_button.png"> </a>
+          </div>
+
+        <div style="margin-left: 25%; margin-right: 25%;">
+            <p>
+                Ссылки могут ссылаться не только на страницу,
+                 но ещё и на конкретное место на странице. Такие 
+                 ссылки называются якорными, а места, на которые
+                  они ссылаются -- якорями.     
+            </p>
+            <p>
+                Якорному элементу нужно прописать атрибут id c именем якоря, например:
+            </p>
+            <p><code> &lt;h1 id="anchor"&gt; Якорь &lt;/h1&gt; </code></p>
+            <p>Теперь, чтобы сослаться на этот якорь, нужно использовать вот такую ссылку:</p>
+            <p><code>&lt;a href="#anchor"&gt;Перейти к якорю&lt;/a&gt;</code></p>
+            <p>При нажатии на ссылку произойдёт переход к нужному месту страницы, а в адресной строке к адресу страницы добавится адрес якоря <code>#anchor</code> </p>
+            <p>Между тегами текст не обязателен, так как
+                требуется лишь указать местоположение перехода 
+                по ссылке, находящейся внизу страницы. Имя ссылки
+                 на якорь начинается с символа #, после чего идет 
+                 имя якоря, оно выбирается любое, соответствующее тематике.
+                  Главное, чтобы значения атрибутов name и href совпадали 
+                  (символ решетки не в счет).</p>
+            <p>
+                Cсылку можно также сделать на закладку, 
+                находящуюся в другой веб-странице и даже 
+                другом сайте. Для этого в атрибуте href тега 
+                <code>&lt;a&gt;</code> надо указать адрес документа и в конце добавить
+                символ решетки # и имя закладки (пример 9.2).
+            </p>
+        </div>
+        <div class="footer">
+            <div style="margin-left: 25%; margin-right: 25%;">
+                <div>
+                    <a href="http://kim67.ru/">
+                        <img class="footer_img"   src="Source/re.png">
+                    </a>
+                </div>
+                <div>
+                    <table style="margin-top: 20px">
+                        <tr>
+                            <td style="border: 0px; padding-left: 0px;"><a href="https://github.com/reskquit/Site"> <img src="https://img.icons8.com/ios/50/000000/github.png"/></a></td>
+                            <td style="border: 0px; padding: 10px;"><a href="https://vk.com/id354023583"><img src="https://img.icons8.com/metro/52/000000/vk-com--v1.png"/></a></td>
+                            
+                        </tr>
+                    </table>
+                    
+
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>

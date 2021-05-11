@@ -18,7 +18,7 @@
 .footer{
     background-color:#20B2AA ;
     margin: 0px;
-    height: 200px;
+    height: 300px;
 }
 .footer_img{
     margin-top: 20px;
@@ -26,7 +26,7 @@
 }
 .title{
     height: 75px;
-    -webkit-text-size-adjust: 100%;
+    
     font-family: LabGrotesque, sans-serif;
     letter-spacing: 0.05em;
     border: 0;
@@ -51,6 +51,67 @@
     margin-left: 12%;
 }
 
+.special{
+    font-size: 30px;
+    position: relative;
+	color: #20B2AA; 
+	cursor: pointer;
+	line-height: 1; 
+	text-decoration: none; 
+}
+.special:after{
+    display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: #20B2AA; 
+	content: "";
+	transition: width 0.3s ease-in; 
+}
+.special:hover:after {
+	width: 100%;
+}
+.nav{
+    position: fixed;
+}
+.special_number{
+    font-size: 35px;
+    position: relative;
+	color: #20B2AA; 
+	
+	line-height: 1; 
+	text-decoration: none; 
+}
+.rf{
+    
+    font-size: 35px;
+    color: black; 
+	line-height: 1; 
+}
+.rf:before{
+    content: "-->";
+}
+.example{
+    background-color: #20b2aa62 ;
+    border-radius: 5px;
+    margin-left: -50%;
+    margin-right: 80%;
+    padding-top: 10px;
+    padding-left: 50%;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.table_of_contents{
+    
+    list-style-type: none;
+    font-size: 35px;
+    color: black; 
+	line-height: 1; 
+}
+.table_of_contents:before{
+    content: "-";
+}
 th, tr, td{
     border: 2px solid black;
     font-family: "Trebuchet MS", sans-serif;

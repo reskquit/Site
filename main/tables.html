@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Таблицы</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class="title" title="Вернуться назад">
+            <h1  align = "center">Таблицы</h1>
+            <a href="index.html"><img class="back_buton" height="60px" src="Source/back_button.png"> </a>
+          </div>
+
+        <div style="margin-left: 25%; margin-right: 25%;">
+            
+            <ul>
+                <li  class="table_of_contents"> <a class="special" href="#fr"> thead, tbody, tfoot, caption</a></li>
+                <li class="table_of_contents"> <a class="special" href="#se"> Объединение столбцов</a></li>
+                <li class="table_of_contents"> <a  class="special" href="#tr"> Объединение строк</a></li>
+            </ul>
+            <p>Таблицы в HTML создаются при помощи тега <code>&lt;table&gt;</code></p>
+            <p>Внутри него размещают строки таблицы <code>&lt;tr&gt;</code> (table row)</p>
+            <p>Внутри строк помещают ячейки строки <code>&lt;td&gt;</code> (table data).</p>
+            <p>
+                Тегом <code>&lt;th&gt;</code> (table header) размечаются заголовочные ячейки. 
+                Он отличается от <code>&lt;td&gt;</code> тем, что его содержимое будет выделено 
+                полужирным и выровнено по центру.
+            </p>
+            <h2 id="fr">thead, tbody, tfoot, caption</h2>
+            <p>
+                Существует возможность группировать строки таблицы тегами 
+                <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, <code>&lt;tfoot&gt;</code>. Они не являются обязательными, 
+                но их рекомендуется использовать. Они дают частям таблицы
+                семантический смысл.
+            </p>
+            <ul >
+                <li> <code>&lt;thead&gt;</code> - для заголовка</li>
+                <li> <code>&lt;tbody&gt;</code> - для основного контента в таблице</li>
+                <li> <code>&lt;tfoot&gt;</code> - для нижнего колонтикула таблицы</li>
+            </ul>
+            <p>Интересный факт: <code>&lt;tfoot&gt;</code> в коде можно расположить перед <code>&lt;tbody&gt;</code> или после него, но браузеры всегда выводят его в конце таблицы.</p>
+            <P class="example">Пример:</P>
+            <div>
+                <figure style="margin-left: 0px;">
+                    <img style="height: 100%;" src="Source/2021-05-11_17-48-17.png">
+                </figure>
+            </div>
+            <p class="example" >Результат:</p>
+            <div>
+                <figure style="margin-left: 0px;">
+                    <img style="height: 100%;" src="Source/2351.png">
+                </figure>
+            </div>
+            <h2 id="se">Объединение столбцов</h2>
+            <p>
+                Если количество столбцов в одной 
+                строке меньше, чем количество столбцов
+                в другой строке таблицы, то в строке 
+                с меньшим количеством ячеек образуется
+                пустое пространство.
+            </p>
+            <p class="example">Пример:</p>
+            <div>
+                <figure style="margin: 0px;">
+                    <img style="height: 100%;"  src="Source/2021-05-11_18-01-02.png">
+                </figure>
+            </div>
+            <p class="example">Результат:</p>
+            <div>
+                <figure style="margin: 0px;">
+                    <img style="height: 100%;" src="Source/2021-05-11_18-03-05.png">
+                </figure>
+            </div>
+            <p>Давайте исправим это, добавив атрибут <code>colspan = 3</code>:</p>
+
+            <p class="example">Пример:</p>
+            <div>
+                <figure style="margin: 0px;">
+                    <img style="height: 100%;"  src="Source/2021-05-11_18-20-06.png">
+                </figure>
+            </div>
+            <p class="example">Результат:</p>
+            <div>
+                <figure style="margin: 0px;">
+                    <img style="height: 100%;" src="Source/2021-05-11_18-20-34.png">
+                </figure>
+            </div>
+            <h2 id="tr">Объединение строк</h2>
+            <p>
+                Для объединения строк по 
+                аналогии со столбцами 
+                используется атрибут 
+                <code>rowspan</code>. Только в данном 
+                случае, ячейка растягивается 
+                вниз на указанное количество строк.
+            </p>
+            <p class="example">Пример:</p>
+            <div>
+                <figure style="margin: 0px;">
+                    <img style="height: 100%;"  src="Source/2021-05-11_18-28-06.png">
+                </figure>
+            </div>
+            <p class="example">Результат:</p>
+            <div>
+                <figure style="margin: 0px;">
+                    <img style="height: 100%;" src="Source/2021-05-11_18-29-53.png">
+                </figure>
+            </div>
+
+
+
+
+                
+            
+        </div>
+
+
+
+
+        <div class="footer">
+            <div style="margin-left: 25%; margin-right: 25%;">
+                <div>
+                    <a href="http://kim67.ru/">
+                        <img class="footer_img"   src="Source/re.png">
+                    </a>
+                </div>
+                <div>
+                    <table style="margin-top: 20px">
+                        <tr>
+                            <td style="border: 0px; padding-left: 0px;"><a href="https://github.com/reskquit/Site"> <img src="https://img.icons8.com/ios/50/000000/github.png"/></a></td>
+                            <td style="border: 0px; padding: 10px;"><a href="https://vk.com/id354023583"><img src="https://img.icons8.com/metro/52/000000/vk-com--v1.png"/></a></td>
+                            
+                        </tr>
+                    </table>
+                    
+
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>
