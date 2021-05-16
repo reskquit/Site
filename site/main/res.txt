@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Якоря</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class="title" title="Вернуться назад">
+            <h1  align = "center">Якоря</h1>
+            <a href="index.html"><img class="back_buton" height="60px" src="Source/back_button.png"> </a>
+          </div>
+
+        <div style="margin-left: 25%; margin-right: 25%;">
+            
+            
+        </div>
+        <div class="footer">
+            <div>
+                <figure style="margin-bottom: 0px; margin-left: 40px;">
+                    <a href="http://kim67.ru/">
+                        <img class="footer_img"   src="Source/re.png">
+                    </a>
+                </figure>
+            </div>
+            <div style="margin-left: 40px;">
+                <p><a href="https://github.com/reskquit/Site"> GitHub</a></p>
+            </div>
+            
+        </div>
+    </body>
+</html>
