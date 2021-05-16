@@ -112,6 +112,12 @@
 .table_of_contents:before{
     content: "-";
 }
+.animation{
+    animation-duration: 3s;
+    anima
+}
+
+
 th, tr, td{
     border: 2px solid black;
     font-family: "Trebuchet MS", sans-serif;
