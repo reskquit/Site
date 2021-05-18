@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Справоник</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="title" class="title">
+        <h1 id="title_pg" align ="center" > Справоник по HTML </h1>
+    </div>
+    <div style="margin-left: 25%; margin-right: 25%;"> 
+        <button id="change_theme">Кликни меня</button>
+
+        <script>
+            var click = 1;
+            change_theme.onclick = function(){  
+                function go(){
+                    if(click%2){
+                        title.style.backgroundColor = "#57357a";
+                        title_pg.textContent = "Справочник по Css";
+                        
+                    }else{
+                        title.style.backgroundColor = "#20B2AA";
+                        title_pg.textContent = "Справочник по html"
+                    }
+                }
+                go();
+                click++;
+                
+            }
+        </script>
+
+        <td class="htmlar1" style="border: 0px;">
+            <ul>
+                <li id="f" class="rf">Основы HTML</li>
+                <ol>
+                    <li class="special_number"> <a class="special" href="Html_document_structure.html">Структура Html документа</a></li>
+                    <li class="special_number"> <a class="special" href="elements.html">Элементы и их виды</a></li>
+                    <li class="special_number"><a class="special" href="tegs.html">Теги</a></li>
+                    <li class="special_number"><a class="special" href="attribute.html">Атрибуты</a></li>
+                </ol>
+                <li class="rf">Базовые Элементы</li>
+                <ol>
+                    <li class="special_number"><a class="special" href="headings_and_paragraphs.html">Заголовки и абзацы</a></li>
+                    
+                    <li class="special_number"><a class="special" href="numbered_lists.html">Cписки</a></li>
+                    <li class="special_number"><a class="special" href="images.html">Изображения</a></li>
+                    <li class="special_number"><a class="special" href="anchors.html">Якоря</a></li>
+                </ol>
+                <li class="rf">Составные Элементы</li>
+                <ol>
+                    <li class="special_number"><a class="special" href="tables.html">Таблицы</a></li>
+                    
+                </ol>
+            </ul>
+            
+        </td>
+    </div>
+        
+            
+        
+    
+    
+
+
+
+    
+
+
+
+
+    <div class="footer">
+        <div style="margin-left: 25%; margin-right: 25%;">
+            <div>
+                <a href="http://kim67.ru/">
+                    <img class="footer_button3"   src="Source/re.png">
+
+                </a>
+            </div>
+            <div>
+                <table style="margin-top: 20px">
+                    <tr>
+                        <td style="border: 0px; padding-left: 0px;">
+                            <a href="https://github.com/reskquit/Site">
+                                <img class="footer_button1" src="https://img.icons8.com/ios/50/000000/github.png"/>
+                            </a>
+                        </td>
+                        <td style="border: 0px; padding: 10px; ">
+                            <a href="https://vk.com/id354023583">
+                                <img class="footer_button2" style="height: 50px;"src="https://img.icons8.com/metro/52/000000/vk-com--v1.png"/>
+                            </a>
+                        </td>
+                        <td style="border: 0px; ">
+                            <a href="https://t.me/Resk_QuiT">
+                                <img class="footer_button1" style="height: 50px;" src="https://img.icons8.com/wired/64/000000/telegram-app.png"/>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <p style="font-size: 15px;"> <a href="https://www.copyright.ru/">Copyright ©</a>, Сафронов Илья, 2021</p>
+            </div>
+        </div>
+    </div>
+    
+  </body>
+</html>
